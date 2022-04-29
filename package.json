@@ -1,6 +1,6 @@
 {
-  "name": "@walletconnect/client",
-  "version": "1.7.8",
+  "name": "@goldsb/wc-client",
+  "version": "1.0.0",
   "description": "Client for WalletConnect",
   "scripts": {
     "clean": "rm -rf dist",
@@ -24,7 +24,7 @@
     "dapp"
   ],
   "author": "WalletConnect, Inc. <walletconnect.com>",
-  "homepage": "https://github.com/WalletConnect/walletconnect-monorepo/",
+  "homepage": "https://github.com/goldsb/wc-client",
   "license": "Apache-2.0",
   "main": "dist/cjs/index.js",
   "browser": "dist/esm/index.js",
@@ -35,10 +35,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/walletconnect/walletconnect-monorepo.git"
+    "url": "git+https://github.com/goldsb/wc-client.git"
   },
   "bugs": {
-    "url": "https://github.com/walletconnect/walletconnect-monorepo/issues"
+    "url": "https://github.com/goldsb/wc-client/issues"
   },
   "devDependencies": {
     "@babel/cli": "7.8.3",
@@ -60,10 +60,12 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
+    "@goldsb/wc-utils": "^1.0.2",
     "@walletconnect/core": "^1.7.8",
     "@walletconnect/iso-crypto": "^1.7.8",
     "@walletconnect/types": "^1.7.8",
-    "@walletconnect/utils": "^1.7.8"
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
   },
   "gitHead": "165f7993c2acc907c653c02847fb02721052c6e7"
 }
